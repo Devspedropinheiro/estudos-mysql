@@ -3,12 +3,12 @@
 
 Consultas e mini projetos para praticar modelagem relacional e SQL.
 
-## Projetos e exercÃ­cios
+## Projetos e exercícios
 
-- `projetos/01-biblioteca.sql`: criaÃ§Ã£o de tabelas relacionadas para livros e emprÃ©stimos.
-- `projetos/02-consultas-biblioteca.sql`: filtros, junÃ§Ãµes, agrupamentos e ordenaÃ§Ã£o.
+- `projetos/01-biblioteca.sql`: criação de tabelas relacionadas para livros e empréstimos.
+- `projetos/02-consultas-biblioteca.sql`: filtros, junções, agrupamentos e ordenação.
 - `projetos/03-loja.sql`: tabelas simples de produtos e pedidos.
 
 ## Como executar
 
-Instale o MySQL Server e um cliente (MySQL Workbench ou `mysql`). Crie um banco de estudos e execute os arquivos `.sql` pela ordem indicada.
+Instale MySQL Server 8.0.16 ou superior e um cliente (MySQL Workbench ou `mysql`). Execute `01-biblioteca.sql` para criar e preencher o banco de exemplo; depois rode `02-consultas-biblioteca.sql`. O arquivo `03-loja.sql` cria um banco independente.

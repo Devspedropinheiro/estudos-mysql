@@ -18,5 +18,9 @@ CREATE TABLE emprestimos (
 );
 
 INSERT INTO livros (titulo, autor, ano_publicacao) VALUES
-('O Pequeno PrÃ­ncipe', 'Antoine de Saint-ExupÃ©ry', 1943),
+('O Pequeno Príncipe', 'Antoine de Saint-Exupéry', 1943),
 ('A Ilha do Tesouro', 'Robert Louis Stevenson', 1883);
+
+INSERT INTO emprestimos (livro_id, nome_leitor, data_emprestimo) VALUES
+(1, 'Leitor de exemplo', '2026-01-10'),
+(2, 'Leitora de exemplo', '2026-01-12');
